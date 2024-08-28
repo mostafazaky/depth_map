@@ -3,8 +3,6 @@ import cv2 as cv
 from matplotlib import pyplot as plt
 
 
-#left_image = cv.imread('tsukuba_l.png', cv.IMREAD_GRAYSCALE)
-#right_image = cv.imread('tsukuba_r.png', cv.IMREAD_GRAYSCALE)
 
 left_image = cv.imread('/Users/mostafazaky/Desktop/depth maps/IMG_2074.png', cv.IMREAD_GRAYSCALE)
 right_image = cv.imread('/Users/mostafazaky/Desktop/depth maps/IMG_2075.png', cv.IMREAD_GRAYSCALE)
